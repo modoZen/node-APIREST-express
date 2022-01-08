@@ -1,4 +1,4 @@
-GET http://localhost:3000/api/v1/products/999
+GET http://localhost:3000/api/v1/products/eddd48ab-25e9-45b4-892b-04f05033613b
 
 ###
 
