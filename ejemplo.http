@@ -1,4 +1,4 @@
-GET http://localhost:3000/api/v1/products
+GET http://localhost:3000/api/v1/products/999
 
 ###
 
@@ -13,16 +13,16 @@ Content-Type: application/json
 
 ###
 
-PATCH  http://localhost:3000/message/61b2979e3ff2988cde0c1c98
+PATCH  http://localhost:3000/api/v1/products/12
 Content-Type: application/json
 
 {
-    "message":"Bye!"
+  "name":"New Product"
 }
 
 ###
 
-DELETE http://localhost:3000/message/61b2ccc3d303cd5ea832bfaf
+DELETE http://localhost:3000/api/v1/products/12
 
 ###
 
