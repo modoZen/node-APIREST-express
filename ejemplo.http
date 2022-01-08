@@ -1,0 +1,55 @@
+GET http://localhost:3000/api/v1/products
+
+###
+
+POST http://localhost:3000/api/v1/products
+Content-Type: application/json
+
+{
+  "name":"New Product",
+  "price": 1209,
+  "image":"http://placeimg.com/640/480"
+}
+
+###
+
+PATCH  http://localhost:3000/message/61b2979e3ff2988cde0c1c98
+Content-Type: application/json
+
+{
+    "message":"Bye!"
+}
+
+###
+
+DELETE http://localhost:3000/message/61b2ccc3d303cd5ea832bfaf
+
+###
+
+GET http://localhost:3000/user
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "name":"Rossmery"
+}
+
+###
+
+
+GET http://localhost:3000/chat/61b2d4d46bd9c0c0774d7c7c
+
+###
+
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+    "users":[
+        "61b2d4d46bd9c0c0774d7c7c",
+        "61b2e7d4d8434c6298792379"
+    ]
+}
