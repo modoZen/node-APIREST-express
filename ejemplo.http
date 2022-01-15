@@ -1,4 +1,4 @@
-GET http://localhost:3000/api/v1/products/704a04c1-2b3c-420a-a82a-22dd947cc2f3
+GET http://localhost:3000/api/v1/products
 
 ###
 
@@ -13,7 +13,7 @@ Content-Type: application/json
 
 ###
 
-PATCH  http://localhost:3000/api/v1/products/704a04c1-2b3c-420a-a82a-22dd947cc2f3
+PATCH  http://localhost:3000/api/v1/products/111
 Content-Type: application/json
 
 {
