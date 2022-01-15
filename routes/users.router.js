@@ -15,7 +15,6 @@ router.get('/', async (req, res, next)=>{
   } catch (error) {
     next(error);
   }
-
 });
 
 router.post('/',
@@ -37,6 +36,5 @@ router.delete('/:id',
     next(error);
   }
 })
-
 
 module.exports = router;
