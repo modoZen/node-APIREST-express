@@ -32,12 +32,13 @@ class ProductsService{
     return newProduct;
   }
 
-  async find(){
+  async find(correct = true){
     return new Promise((resolve, reject)=>{
+      if(!correct) reject(boom.internal('error interno'))
       setTimeout(()=>{
         resolve(this.products)
-      })
-    },5000);
+      },5000)
+    });
   }
 
   async findOne(id){
